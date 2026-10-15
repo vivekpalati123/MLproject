@@ -1,0 +1,11 @@
+Label,Count
+BENIGN,7000
+DoS Hulk,2000
+DDoS,1800
+PortScan,1500
+FTP-Patator,800
+SSH-Patator,700
+Bot,500
+Web Attack Brute Force,300
+DoS GoldenEye,200
+Web Attack XSS,200

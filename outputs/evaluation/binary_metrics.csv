@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,tp,tn,fp,fn,roc_auc,pr_auc
+0.9996666666666667,1.0,0.999375,0.9996874023132228,1599,1400,0,1,1.0,1.0

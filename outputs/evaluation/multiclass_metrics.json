@@ -1,0 +1,142 @@
+{
+  "accuracy": 0.6693333333333333,
+  "macro_precision": 0.32726576655570655,
+  "macro_recall": 0.29959204992633404,
+  "macro_f1": 0.28651662661992006,
+  "weighted_f1": 0.6497990605898596,
+  "classes": [
+    "BENIGN",
+    "Bot",
+    "DDoS",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "FTP-Patator",
+    "PortScan",
+    "SSH-Patator",
+    "Web Attack Brute Force",
+    "Web Attack XSS"
+  ],
+  "confusion_matrix": [
+    [
+      1400,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      0,
+      0,
+      0,
+      15,
+      64,
+      19,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      138,
+      0,
+      199,
+      1,
+      9,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      17,
+      0,
+      15,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      166,
+      0,
+      235,
+      1,
+      5,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      13,
+      0,
+      0,
+      0,
+      23,
+      121,
+      25,
+      0,
+      1
+    ],
+    [
+      2,
+      13,
+      0,
+      0,
+      0,
+      40,
+      187,
+      30,
+      3,
+      0
+    ],
+    [
+      1,
+      7,
+      0,
+      0,
+      0,
+      21,
+      91,
+      16,
+      0,
+      2
+    ],
+    [
+      1,
+      4,
+      0,
+      0,
+      0,
+      7,
+      37,
+      10,
+      3,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      8,
+      31,
+      2,
+      0,
+      0
+    ]
+  ],
+  "classification_report": "                        precision    recall  f1-score   support\n\n                BENIGN       0.99      1.00      1.00      1400\n                   Bot       0.13      0.06      0.08       106\n                  DDoS       0.43      0.40      0.41       349\n         DoS GoldenEye       0.00      0.00      0.00        34\n              DoS Hulk       0.52      0.57      0.55       409\n           FTP-Patator       0.20      0.12      0.15       184\n              PortScan       0.34      0.68      0.46       275\n           SSH-Patator       0.15      0.12      0.13       138\nWeb Attack Brute Force       0.50      0.05      0.09        62\n        Web Attack XSS       0.00      0.00      0.00        43\n\n              accuracy                           0.67      3000\n             macro avg       0.33      0.30      0.29      3000\n          weighted avg       0.65      0.67      0.65      3000\n"
+}
