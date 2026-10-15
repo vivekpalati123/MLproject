@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / env vars
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Large data files (keep sample only)
+data/raw/*.csv
+!data/raw/sample_cicids2017.csv
+
+# Logs
+*.log
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
